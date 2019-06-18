@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <h2>My Ips</h2>
+      <h2>My IPs</h2>
       {% if my_ip4 %}
         <div><p>{{ my_ip4 }}</p></div>
       {% endif %}
@@ -20,7 +20,6 @@
         <div><p>{{ my_ip6 }}</p></div>
       {% endif %}
       <div id=flows>
-        {% include 'flows.html' %}
       </div>
     </div>
 
