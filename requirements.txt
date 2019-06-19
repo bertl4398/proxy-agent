@@ -1,5 +1,8 @@
 Flask
+flask-restful
+flask-redis
+celery
 gunicorn
 pandas
+plotly
 netifaces
-redis
